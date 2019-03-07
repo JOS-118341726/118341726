@@ -44,7 +44,7 @@
     </center>
     <br><br>
     <center>
-    <a href="Index_1.php" class="button">Return to Index</a>
+    <a href="Index.php" class="button">Return to Index</a>
     </center>
     </body>
 </html>

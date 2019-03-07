@@ -56,7 +56,7 @@ $_SESSION['txtNum'] = $phonenumber;
                         </tr>
                         <tr>
                             <td>Password</td>
-                            <td><input type="password" id="txtPassword" name="txtPassword" value=""/></td>
+                            <td><input type="password" id="txtPassword" name="txtPassword" value="" maxlength="4"/></td>
                         </tr>
                         <tr>
                             
