@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Consultancy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #000080;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 600px; /* only for demonstration, should be removed */
+  background-color:  #ffffcc ;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 16px;
+  font-size: 20px;
+  
+}
+
+nav li {
+    padding: 15px;
+    
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color:  #9999ff;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+li {
+    padding: 15px;
+}
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Prospect Consulting Services Ltd</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      
+        <li><a href="AboutConsulting.html"><strong>About</strong></a></li>
+        <li><a href="eBus1.php"><strong>Services</strong></a></li>
+        <li><a href="index_1.php"><strong>Home</strong></a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Consulting Services</h1>
+    <p>To ensure you gain full market access, your goods must comply with the requirements of your target market. Identifying and meeting those requirements is a complex challenge. Our consultancy services can help you understand and meet market demands anywhere in the world, whatever your industry.</p>
+    <ul>
+        <li>To find out more check out our About Consulting page. This contains information on Blockchain, Autonomous Things and Immersive Experience.</li>
+        
+        <li>To facilitate of our services check out our Services page. This contains a place for you to decide on which cloud service you require us to aid you with and also make the final purchase transaction. This is essentially our eBusiness page.</li>
+    </ul>
+    <p>
+        
+    </p>
+  </article>
+</section>
+
+
+
+</body>
+</html>
+
