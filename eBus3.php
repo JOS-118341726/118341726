@@ -31,11 +31,16 @@
         $totalValue2 = $_POST['txtTotal'];
         $fullNameValue = $_POST['txtName'];
         $phonenumber = $_POST['txtNum'];
+        $email = $_POST['txtEmail'];
         echo "The name is : ".$fullNameValue.".";
        
         echo"<br></br>";
         
         echo "The Mobile Number is : ".$phonenumber.".";
+        
+        echo"<br></br>";
+        
+        echo "The Email is : ".$email.".";
         
         echo"<br></br>";
        

@@ -3,6 +3,7 @@ session_start();
 $fullNameValue = "";
 $totalValue2 = "";
 $phonenumber = "";
+$email ="";
 /*
  * Create a session variable for the mobile number
  */
@@ -10,6 +11,7 @@ $totalValue = $_POST['txtTotal'];
 $_SESSION['txtName'] = $fullNameValue;
 $_SESSION['txtTotal'] = $totalValue2;
 $_SESSION['txtNum'] = $phonenumber;
+$_SESSION['txtEmail'] = $email;
 /**
  * Allocate The mobile number session variable to a text box
  */
@@ -53,6 +55,10 @@ $_SESSION['txtNum'] = $phonenumber;
                         <tr>
                             <td>Phone Number</td>
                             <td><input type="text" id="txtNum" name="txtNum" value="" maxlength="10" onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"/></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="text" id="txtEmail" name="txtEmail" value=""/></td>
                         </tr>
                         <tr>
                             <td>Password</td>

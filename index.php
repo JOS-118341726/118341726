@@ -34,6 +34,10 @@
 <br><br>
 <br><br>
 <a href="Consultancy.html" class="button">Consultancy</a>
+<br><br>
+<br><br>
+<a href="homepage.html" class="button">My Homepage with Links</a>
+<br><br>
 </center>
 
 </body>
