@@ -50,7 +50,7 @@ li a:hover {
 <body>
     <nav> 
         <ul>
-  <li><a class="active" href="Index.php">Index</a></li>
+  <li><a class="active" href="index.php">Index</a></li>
   <li><a href="Consultancy.html">Consultancy</a></li>
   <li><a href="AboutConsulting.html">About Consultancy</a></li>
   

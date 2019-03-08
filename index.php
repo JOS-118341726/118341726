@@ -3,7 +3,8 @@
 <head>
     <title>Jack O'Sullivan's Index Page</title>
 <style>
-.button {
+/*Buttons CSS*/
+    .button {
   background-color: #ffffcc;
   border: none;
   color: black;
@@ -26,6 +27,7 @@
 <br><br>
 </center>
 
+<!--Buttons Links Other pages-->
 <center>
 <a href="CV.html" class="button">My CV</a>
 <br><br>

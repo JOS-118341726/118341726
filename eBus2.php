@@ -50,19 +50,22 @@ $_SESSION['txtEmail'] = $email;
 
                         <tr>
                             <td>Name</td>
-                            <td><input type="text" id="txtName" name="txtName" value=""/></td>
+                            <td><input type="text" id="txtName" name="txtName" value="" required/></td>
+                        <!--Required so it must be filled in-->
                         </tr>
                         <tr>
                             <td>Phone Number</td>
-                            <td><input type="text" id="txtNum" name="txtNum" value="" maxlength="10" onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"/></td>
+                            <td><input type="text" id="txtNum" name="txtNum" value="" maxlength="10" onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57" required/></td>
+                       <!--So telephone can only be numbers-->
                         </tr>
                         <tr>
                             <td>Email</td>
-                            <td><input type="text" id="txtEmail" name="txtEmail" value=""/></td>
+                            <td><input type="Email" id="txtEmail" name="txtEmail" value="" required/></td>
                         </tr>
                         <tr>
                             <td>Password</td>
-                            <td><input type="password" id="txtPassword" name="txtPassword" value="" maxlength="4"/></td>
+                            <td><input type="password" id="txtPassword" name="txtPassword" value="" maxlength="4" required autocomplete="off"/></td>
+                        <!--Fixing Max Length-->
                         </tr>
                         <tr>
                             

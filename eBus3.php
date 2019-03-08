@@ -49,7 +49,7 @@
     </center>
     <br><br>
     <center>
-    <a href="Index.php" class="button">Return to Index</a>
+    <a href="index.php" class="button">Return to Index</a>
     </center>
     </body>
 </html>
